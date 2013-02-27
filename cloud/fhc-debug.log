@@ -1,0 +1,44 @@
+info it worked if it ends with ok
+info using fhc@0.7.24-BUILD-NUMBER
+info using node@v0.8.19
+silly config file /Users/bdooley/.fhcrc
+silly config file /usr/local/etc/fhcrc
+verbose feedhenry url https://hpcs.feedhenry.com
+silly get container Getting app container from url: https://hpcs.feedhenry.com/, domain: hpcs
+verbose feedhenry url https://hpcs.feedhenry.com/
+silly POST box/srv/1.1/ide/hpcs/app/read
+silly url, unparsed https://hpcs.feedhenry.com/
+verbose resolveUrl - IN box/srv/1.1/ide/hpcs/app/read
+verbose resolveUrl - OUT https://hpcs.feedhenry.com/box/srv/1.1/ide/hpcs/app/read
+verbose calling url https://hpcs.feedhenry.com/box/srv/1.1/ide/hpcs/app/read payload: { payload: { guid: 'SlsODjb27PEllqpBcuxrLnA_' } }
+silly port 443
+silly cookie feedhenry=GqiyhsOZA-hkSFZ0hkxmybSO;
+silly nocache false
+silly explain level 0
+verbose getHeaders { accept: 'application/json',
+verbose getHeaders   cookie: 'feedhenry=GqiyhsOZA-hkSFZ0hkxmybSO;',
+verbose getHeaders   'User-Agent': 'FHC/0.7.24-BUILD-NUMBER darwin/12.2.1',
+verbose getHeaders   'content-type': 'application/json',
+verbose getHeaders   'content-length': 47 }
+verbose what... { payload: { guid: 'SlsODjb27PEllqpBcuxrLnA_' } }
+silly writing json { payload: { guid: 'SlsODjb27PEllqpBcuxrLnA_' } }
+silly headers { accept: 'application/json',
+silly headers   cookie: 'feedhenry=GqiyhsOZA-hkSFZ0hkxmybSO;',
+silly headers   'User-Agent': 'FHC/0.7.24-BUILD-NUMBER darwin/12.2.1',
+silly headers   'content-type': 'application/json',
+silly headers   'content-length': 47 }
+silly getProxy null
+silly response headers { date: 'Tue, 26 Feb 2013 16:48:40 GMT',
+silly response headers   p3p: 'CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL" policyref="/box/p3p.xml"',
+silly response headers   etag: '"BIC7LHktUa2dzy2s_wzUdk"',
+silly response headers   'content-type': 'application/json;charset=UTF-8',
+silly response headers   'content-length': '1113',
+silly response headers   vary: 'Accept-Encoding',
+silly response headers   'keep-alive': 'timeout=15, max=100',
+silly response headers   connection: 'Keep-Alive' }
+WARN application.js No existing application.js file, creating
+ERR! Error: ENOENT, open './cloud/application.js'
+ERR! 
+ERR! System Darwin 12.2.1
+ERR! command "node" "/usr/local/bin/fhc" "local" "SlsODjb27PEllqpBcuxrLnA_"
+verbose exit [ 34, true ]
